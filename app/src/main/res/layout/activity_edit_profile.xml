@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EditProfile">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EditProfile"
+        android:textAlignment="center"
+        android:textSize="36sp" />
+
+    <EditText
+        android:id="@+id/usernameE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <Button
+        android:id="@+id/buttonSearchE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search" />
+
+    <EditText
+        android:id="@+id/DateOfBirthE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Date Of Birth" />
+
+    <EditText
+        android:id="@+id/passwordE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="password" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/maleE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Male" />
+
+        <RadioButton
+            android:id="@+id/femaleE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Female" />
+
+        <Button
+            android:id="@+id/buttonEditE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit" />
+
+        <Button
+            android:id="@+id/buttonDeleteE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete" />
+    </RadioGroup>
+
+</LinearLayout>

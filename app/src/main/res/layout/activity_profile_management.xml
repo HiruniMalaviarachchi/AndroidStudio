@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileManagement">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile Management"
+        android:textAlignment="center"
+        android:textSize="36sp" />
+
+    <EditText
+        android:id="@+id/userNameP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="UserName" />
+
+    <EditText
+        android:id="@+id/dateOfBirthP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="DateOfBirth" />
+
+    <EditText
+        android:id="@+id/passwordP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Password" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/MaleP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Male" />
+
+        <RadioButton
+            android:id="@+id/FemaleP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Female" />
+
+        <Button
+            android:id="@+id/buttonUpdateP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UpdateProfile" />
+
+        <Button
+            android:id="@+id/addP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add" />
+    </RadioGroup>
+</LinearLayout>
